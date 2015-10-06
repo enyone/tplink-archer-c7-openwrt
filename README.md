@@ -7,4 +7,4 @@
 ![stock_login](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/stock_login.jpg)
 ![stock_update](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/stock_update.jpg)
 ![stock_updating](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/stock_updating.jpg)
-![openwrt_login](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/openwrt_login.jpg.JPG)
+![openwrt_login](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/openwrt_login.jpg)
