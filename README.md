@@ -18,7 +18,13 @@ Retail box
 
 Labels at box
 ---
-Labels telling the SN and HW revision. Check that the revision is *v2.0*
+Labels telling the SN and HW revision. Check that the revision is:
+```
+Ver:2.0
+```
+
+The unit itself
+---
 ![revision_labels](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/revision_labels.JPG)
 ![theunit](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/theunit.JPG)
 ![backpanel](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/backpanel.JPG)
