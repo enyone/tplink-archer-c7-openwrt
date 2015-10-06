@@ -1,16 +1,15 @@
 # tplink-archer-c7-openwrt
 
+tl;dr This is a guide which steps through installing OpenWRT to TP-Link Archer C7
+
 You will need
 ---
 
-TP-Link Archer C7 AC1750 v2.0
-- http://www.tp-link.com/en/products/details/cat-9_Archer-C7.html
+TP-Link Archer C7 AC1750 Ver:2.0: http://www.tp-link.com/en/products/details/cat-9_Archer-C7.html
  
-OpenWRT
-- http://wiki.openwrt.org/toh/tp-link/archer-c5-c7-wdr7500
+OpenWRT: http://wiki.openwrt.org/toh/tp-link/archer-c5-c7-wdr7500
 
-Direct firmware download link:
-- https://downloads.openwrt.org/latest/ar71xx/generic/openwrt-15.05-ar71xx-generic-archer-c7-v2-squashfs-factory.bin
+Direct firmware download link: https://downloads.openwrt.org/latest/ar71xx/generic/openwrt-15.05-ar71xx-generic-archer-c7-v2-squashfs-factory.bin
 
 Retail box
 ---
@@ -52,3 +51,8 @@ OpenWRT login
 After the unit's reboot you need to unplug and then re-plug RJ45 cable, this causes the DHCP to renew the ip address which is now changed to http://192.168.1.1/ Now navigate there and login with root:root
 
 ![openwrt_login](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/openwrt_login.jpg)
+
+Further reading
+---
+OpenWRT LuCI web interface tour https://www.youtube.com/watch?v=kLLtZH2Bc0w
+![openwrt_login](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/openwrt_working.jpg)
