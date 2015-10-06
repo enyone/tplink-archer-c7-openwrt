@@ -32,14 +32,23 @@ The unit itself and the backpanel
 
 Stock firmware login
 ---
-Connect unit's LAN1 (yellow) port to your computer with a RJ45 cable. Do not use a static ip address at your computer, use DHCP instead. Power up the device, wait 60secs and then navigate to http://192.168.0.1/ and login with root:root
+Connect unit's LAN1 (yellow) port to your computer with a RJ45 cable. Do not use a static ip address at your computer, use DHCP instead. Power up the device, wait 60secs and then navigate to http://192.168.0.1/ and login with admin:admin
 
 ![stock_login](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/stock_login.jpg)
 
 Stock firmware update
 ---
-Navigate to
+Navigate to System Tools -> Firmware Upgrade and select downloaded *-factory.bin file. Then click Upgrade.
 
 ![stock_update](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/stock_update.jpg)
+
+Upgrade process
+---
+It takes ~2mins to complete. After the update the unit reboots.
 ![stock_updating](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/stock_updating.jpg)
+
+OpenWRT login
+---
+After the unit's reboot you need to unplug and then re-plug RJ45 cable, this causes the DHCP to renew the ip address which is now changed to http://192.168.1.1/ Now navigate there and login with root:root
+
 ![openwrt_login](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/openwrt_login.jpg)
