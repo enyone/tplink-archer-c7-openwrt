@@ -54,7 +54,7 @@ After the unit's reboot you need to unplug and then re-plug RJ45 cable, this cau
 
 Further reading
 ---
-In fact OpenWRT is designed to be used through a command line interface but some has developed a very decent web gui called LuCI.
+In fact OpenWRT is designed to be used through a command line interface but someone has developed a very decent web interface called LuCI.
 
 OpenWRT LuCI web interface tour https://www.youtube.com/watch?v=kLLtZH2Bc0w
 ![openwrt_login](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/openwrt_working.jpg)
