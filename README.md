@@ -11,6 +11,19 @@ OpenWRT: http://wiki.openwrt.org/toh/tp-link/archer-c5-c7-wdr7500
 
 Direct firmware download link: https://downloads.openwrt.org/latest/ar71xx/generic/openwrt-15.05-ar71xx-generic-archer-c7-v2-squashfs-factory.bin
 
+UPDATE:
+---
+There seems to be a bug in ath10k kernel module causing connection to drop becuse of no ack received from wireless station (eg. your laptop) to AP (the router). The ack's are sent correctly but bug in ath10k causes them to disappear and low_ack is fired causing connection drop. Workaround for this is to add 'disassoc_low_ack' with a value of '0' to /etc/config/wireless under desired wifi-iface configuration.
+```
+# cat /etc/config/wireless
+config wifi-iface
+  option device 'radio0'
+  option network 'lan'
+  option mode 'ap'
+  option disassoc_low_ack '0'
+  ...
+```
+
 Retail box
 ---
 ![unboxed](https://raw.githubusercontent.com/enyone/tplink-archer-c7-openwrt/master/unboxed.JPG)
