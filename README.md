@@ -9,7 +9,7 @@ TP-Link Archer C7 AC1750 Ver:2.0: http://www.tp-link.com/en/products/details/cat
  
 OpenWRT: http://wiki.openwrt.org/toh/tp-link/archer-c5-c7-wdr7500
 
-Direct firmware download link: https://downloads.openwrt.org/latest/ar71xx/generic/openwrt-15.05.1-ar71xx-generic-archer-c7-v2-squashfs-sysupgrade.bin
+Direct firmware download link: https://downloads.openwrt.org/latest/ar71xx/generic/openwrt-15.05.1-ar71xx-generic-archer-c7-v2-squashfs-factory.bin
 
 UPDATE Nov 17:
 ---
